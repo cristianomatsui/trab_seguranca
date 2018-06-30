@@ -1,10 +1,11 @@
 \section{Materiais e Métodos}
 \subsection{Materiais}
-Para captar e realizar a leitura do ruído elétrico foram utilizados um microcontrolador e um pedaço de estanho.
+Para captar e realizar a leitura do ruído eletromagnético foram utilizados uma antena para a captação
+e um microcontrolador para a aquisição do valor do ruído captado.
 \subsubsection{Arduino UNO}
-O Arduino Uno (Fig 1) é uma placa de microcontrolador baseado no ATmega328 (datasheet). Ele tem 14 pinos de entrada/saída digital (dos quais 6 podem ser usados como saídas PWM), 6 entradas analógicas, um cristal oscilador de 16MHz, uma conexão USB, uma entrada de alimentação uma conexão ICSP e um botão de reset. Ele contém todos os componentes necessários para suportar o microcontrolador, simplesmente conecte a um computador pela porta USB ou alimentar com uma fonte ou com uma bateria e tudo pronto para começar.
+O Arduino Uno (Fig 1) é uma placa de microcontrolador baseado no ATmega328 (datasheet). Possui 14 pinos de entrada/saída digital (dos quais 6 podem ser usados como saídas PWM), 6 entradas analógicas, um cristal oscilador de 16MHz, uma conexão USB e uma entrada de alimentação uma conexão ICSP.
 
-O Arduino foi responsável pela leitura do ruído elétrico em uma de suas portas analógicas e a partir disso fazer o processamento dessa leitura a fim de gerar um número aleatório.
+O microcontrolador foi responsável pela leitura do ruído eletromagnético em uma de suas portas analógicas. O ruído foi então convertido para um valor numérico através do conversor analógico-digital (ADC) presente no Arduino.
 
 \begin{figure}[H]
 	\label{fig1}
@@ -15,14 +16,21 @@ O Arduino foi responsável pela leitura do ruído elétrico em uma de suas porta
 		
 \end{figure}
 
-\subsubsection{Estanho}
+\subsubsection{Antena}
 
-Foi utilizado um pedaço de estanho na porta do microcontrolador como aparato para amplificar a captação de interferência eletromagnética. De forma que facilitasse a leitura dos dados pelo microcontrolador.
+Foi utilizado um fio de estanho na porta do microcontrolador como aparato para a captação de interferência eletromagnética. A configuração escolhida da antena foi de monopolo de quarto de onda \cite{Balanis2005}.
+A frequência captada pela antena é prevista pela equação abaixo:
+
+\begin{equation}
+   f = \frac{c}{\frac{L}{4}}
+  \end{equation}
+sendo $f$ a frequência em Herz, $c$ a velocidade da luz e $L$ o comprimento da antena. Para uma antena de 8 centímetros, a frequência
+captada pela antena é de 15MHz.
  \begin{figure}[H]
  	\label{fig2}
  	\begin{centering}
- 		\includegraphics[width = 200pt]{img/estanho.jpg}
- 		\caption{Estanho}
+ 		\includegraphics[width = 200pt]{img/arduino2.png}
+ 		\caption{Arduino UNO com a antena monopolo}
  	\end{centering}	
  		
  \end{figure}
