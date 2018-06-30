@@ -31,12 +31,38 @@ brazil				% o último idioma é o principal do documento
 \usepackage{sbc-template}
 \usepackage{float}
 \usepackage{graphicx,url}
-
-\usepackage[portuguese, ruled, linesnumbered]{algorithm2e}
+\usepackage{verbatim}                                       % Permite apresentar texto tal como escrito no documento, ainda que sejam comandos Latex
+\usepackage{amsfonts, amssymb, amsmath}                     % Fontes e símbolos matemáticos
+\usepackage{ae, aecompl}                                    % Fontes de alta qualidade
+\usepackage{latexsym}                                       % Símbolos matemáticos
+\usepackage[algoruled, portuguese]{algorithm2e}             % Permite escrever algoritmos em português
 \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc} 
 \usepackage{indentfirst}
-     
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\renewcommand{\lstlistingname}{Código}% Listing -> Algorithm
 \sloppy
 
 \title{Obtenção de sequências aleatórias a partir de interferência eletromagnetica}
@@ -45,7 +71,7 @@ brazil				% o último idioma é o principal do documento
 
 
 \address{Universidade Tecnológica Federal do Paraná - Câmpus Pato Branco
-  \email{amargo@gmail.com, kallil@alunos.utfpr.edu.br,
+  \email{cristiano.matsui@gmail.com, kallil@alunos.utfpr.edu.br,
   rodrigoanater@alunos.utfpr.edu.br}
 }
 

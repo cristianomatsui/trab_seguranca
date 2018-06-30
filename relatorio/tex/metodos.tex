@@ -36,3 +36,39 @@ captada pela antena é de 15MHz.
  \end{figure}
 
 \subsection{Métodos}
+
+Os dados adquiridos pela antena foram tratados no próprio microcontrolador. O ruído ocasionou uma pequena variação de tensão
+na porta analógica do Arduino UNO, que foram convertidos para valores na faixa de 0 até 1023. Foram realizadas dez mil leituras, com um
+pequeno delay (cerca de 20 milisegundos) entre leituras sucessivas, para evitar ler o mesmo ruído múltiplas vezes. O processamento destas
+leituras foi feito de acordo com o algoritmo abaixo.
+
+\begin{algorithm}
+\label{alg1}
+    \caption{Algoritmo de tratamento de dados}
+    \KwIn{Ruído da porta analógica do microcontrolador}
+    \KwOut{Sequência de números em base hexadecimal}
+    Início\\
+    \While(\\
+       1.$prev\_value$ $\leftarrow$ valor lido da porta do microcontrolador\\
+       2.$value$ $\leftarrow$ próximo valor lido da porta do microcontrolador\\
+       3.$d$ $\leftarrow$ $|value - prev\_value|$\\
+       4.$d \leftarrow d \mod 16$\\
+       5.Imprima $d$ na base hexadecimal){existirem números a serem adquiridos}
+       
+\end{algorithm}
+
+Este código fornece uma sequência de números na base hexadecimal (0-F). Para as ferramentas de validação do experimento, era necessário
+um arquivo binário. Para isso, foi utilizado um código em C para ler os números em hexadecimal e transformá-los em uma sequência binária.
+
+\begin{lstlisting}[caption={Conversão hexa-binário},captionpos=b]
+#include <stdio.h>
+
+int main(void) {
+	unsigned int a;
+	while(scanf("%X", &a) != -1) {
+		printf("%c%c", a>>8, a);
+	}
+	return 0;
+}
+
+\end{lstlisting}
