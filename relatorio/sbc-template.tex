@@ -33,9 +33,8 @@ brazil				% o último idioma é o principal do documento
 \usepackage{graphicx,url}
 
 \usepackage[portuguese, ruled, linesnumbered]{algorithm2e}
-
-\usepackage[brazil]{babel}   
-\usepackage[latin1]{inputenc}  
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc} 
 \usepackage{indentfirst}
      
 \sloppy
@@ -52,8 +51,8 @@ brazil				% o último idioma é o principal do documento
 
 \begin{document} 
 
-\selectlanguage{brazil}
-\maketitle
+  \selectlanguage{brazil}
+  \maketitle
 
 \begin{abstract} 	
  	The definition of what is meant by a random number or event is the subject of discussion by professionals in many fields of study, including computing professionals. However, most part of the computers used in the present days generate only pseudorandom numbers. This article details the development of a random number generator using the electrical noise obtained from the analog port of a microcontroller
