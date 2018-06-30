@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.4.18)  30 JUN 2018 14:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.4.18)  30 JUN 2018 19:24
 entering extended mode
 **./sbc-template.tex
 (sbc-template.tex
@@ -118,18 +118,117 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks19
+\verbatim@line=\toks20
+\verbatim@in@stream=\read1
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen122
+))
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen123
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip11
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks23
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks24
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks25
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\ae\ae.sty"
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\ae\aecompl.sty"
+Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) (algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count93
+\c@AlgoLine=\count105
 
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\algocf@hangindent=\skip45
+\algocf@hangindent=\skip48
 
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count94
+\c@checkoddpage=\count106
 )
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -137,41 +236,41 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
-\skiptotal=\skip46
-\skiplinenumber=\skip47
-\skiprule=\skip48
-\skiphlne=\skip49
-\skiptext=\skip50
-\skiplength=\skip51
-\algomargin=\skip52
-\skipalgocfslide=\skip53
-\algowidth=\dimen122
-\inoutsize=\dimen123
-\inoutindent=\dimen124
-\interspacetitleruled=\dimen125
-\interspacealgoruled=\dimen126
-\interspacetitleboxruled=\dimen127
-\algocf@ruledwidth=\skip54
-\algocf@inoutbox=\box29
-\algocf@inputbox=\box30
-\AlCapSkip=\skip55
-\AlCapHSkip=\skip56
-\algoskipindent=\skip57
-\algocf@nlbox=\box31
-\algocf@hangingbox=\box32
-\algocf@untilbox=\box33
-\algocf@skipuntil=\skip58
-\algocf@capbox=\box34
-\algocf@lcaptionbox=\skip59
-\algoheightruledefault=\skip60
-\algoheightrule=\skip61
-\algotitleheightruledefault=\skip62
-\algotitleheightrule=\skip63
-\c@algocfline=\count95
-\c@algocfproc=\count96
-\c@algocf=\count97
-\algocf@algoframe=\box35
-\algocf@algobox=\box36
+\skiptotal=\skip49
+\skiplinenumber=\skip50
+\skiprule=\skip51
+\skiphlne=\skip52
+\skiptext=\skip53
+\skiplength=\skip54
+\algomargin=\skip55
+\skipalgocfslide=\skip56
+\algowidth=\dimen131
+\inoutsize=\dimen132
+\inoutindent=\dimen133
+\interspacetitleruled=\dimen134
+\interspacealgoruled=\dimen135
+\interspacetitleboxruled=\dimen136
+\algocf@ruledwidth=\skip57
+\algocf@inoutbox=\box31
+\algocf@inputbox=\box32
+\AlCapSkip=\skip58
+\AlCapHSkip=\skip59
+\algoskipindent=\skip60
+\algocf@nlbox=\box33
+\algocf@hangingbox=\box34
+\algocf@untilbox=\box35
+\algocf@skipuntil=\skip61
+\algocf@capbox=\box36
+\algocf@lcaptionbox=\skip62
+\algoheightruledefault=\skip63
+\algoheightrule=\skip64
+\algotitleheightruledefault=\skip65
+\algotitleheightrule=\skip66
+\c@algocfline=\count107
+\c@algocfproc=\count108
+\c@algocf=\count109
+\algocf@algoframe=\box37
+\algocf@algobox=\box38
 )
 ("C:\Program Files\MiKTeX 2.9.1\tex\generic\babel\babel.sty"
 Package: babel 2017/05/19 3.10 The Babel package
@@ -188,8 +287,8 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9.1\tex\generic\babel\babel.def"
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count98
-\U@D=\dimen128
+\babel@savecnt=\count110
+\U@D=\dimen137
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -202,8 +301,8 @@ Package babel Info: Making " an active character on input line 145.
 ))
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -521,33 +620,65 @@ Now handling font encoding U ...
 ("C:\Program Files\MiKTeX 2.9.1\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\listings\listings.sty"
+\lst@mode=\count111
+\lst@gtempboxa=\box39
+\lst@token=\toks29
+\lst@length=\count112
+\lst@currlwidth=\dimen138
+\lst@column=\count113
+\lst@pos=\count114
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count115
+\lst@lineno=\count116
+\lst@maxwidth=\dimen141
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count117
+\lst@skipnumbers=\count118
+\lst@framebox=\box40
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
 
 LaTeX Warning: Unused global option(s):
     [openright,sumario=tradicional,hidelinks,num,bibjustif,brackets].
 
-(sbc-template.aux
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-)
+(sbc-template.aux)
 \openout1 = `sbc-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 52.
- ("C:\Program Files\MiKTeX 2.9.1\tex\latex\psnfss\ot1ptm.fd"
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -584,17 +715,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 ("C:\Program Files\MiKTeX 2.9.1\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen129
-\scratchbox=\box37
-\nofMPsegments=\count100
-\nofMParguments=\count101
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen130
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count119
+\scratchdimen=\dimen142
+\scratchbox=\box41
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen143
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks31
 ) ("C:\Program Files\MiKTeX 2.9.1\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -637,95 +768,86 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 55.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 55.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 55.
+\c@lstlisting=\count125
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
 
-("C:\Program Files\MiKTeX 2.9.1\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-Overfull \hbox (59.20865pt too wide) in paragraph at lines 55--55
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 81.
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for T1+aett on input line 81.
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Overfull \hbox (51.56778pt too wide) in paragraph at lines 81--81
  [][] 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 57.
-(tex/intro.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-) (tex/aleatoriedade.tex [1
+(tex/intro.tex) (tex/aleatoriedade.tex [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) (tex/metodos.tex <img/ar
 duino.jpg, id=11, 803.0pt x 803.0pt>
 File: img/arduino.jpg Graphic file (type jpg)
 
 <use img/arduino.jpg>
-Package pdftex.def Info: img/arduino.jpg used on input line 12.
+Package pdftex.def Info: img/arduino.jpg used on input line 13.
 (pdftex.def)             Requested size: 400.0pt x 400.00418pt.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 13.
- ("C:\Program Files\MiKTeX 2.9.1\tex\latex\psnfss\ot1phv.fd"
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 14.
+ ("C:\Program Files\MiKTeX 2.9.1\tex\latex\ae\t1aess.fd"
+File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 13.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<img/estanho.jpg, id=15, 903.375pt x 903.375pt>
-File: img/estanho.jpg Graphic file (type jpg)
- <use img/estanho.jpg>
-Package pdftex.def Info: img/estanho.jpg used on input line 24.
-(pdftex.def)             Requested size: 200.0pt x 199.99748pt.
-)
-(tex/validacao.tex
+<img/arduino2.png, id=15, 607.26875pt x 580.1675pt>
+File: img/arduino2.png Graphic file (type png)
+ <use img/arduino2.png>
+Package pdftex.def Info: img/arduino2.png used on input line 32.
+(pdftex.def)             Requested size: 200.0pt x 191.06635pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./img/arduino.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 4.
- ("C:\Program Files\MiKTeX 2.9.1\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
+ [3 <./img/arduino.jpg>] [4 <./img/arduino2.png>]) (tex/validacao.tex
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 4.
+
+("C:\Program Files\MiKTeX 2.9.1\tex\latex\ae\omsaer.fd"
+File: omsaer.fd 1999/12/27
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-)
-(sbc-template.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [4 <./img/estanho.jpg>] [5] (sbc-template.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) (sbc-template.bbl)
+[5] (sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 4748 strings out of 493323
- 67413 string characters out of 3138204
- 162800 words of memory out of 3000000
- 8160 multiletter control sequences out of 15000+200000
- 21033 words of font info for 44 fonts, out of 3000000 for 9000
+ 7672 strings out of 493323
+ 103796 string characters out of 3138204
+ 211603 words of memory out of 3000000
+ 10979 multiletter control sequences out of 15000+200000
+ 41175 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,28p,644b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9.1/fonts/enc/dvips/base/8r.enc}<C:/Program Files/
-MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
- 2.9.1/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9.1/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9.1/fonts/t
-ype1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9.1/fonts/type1/urw/helv
-etic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9.1/fonts/type1/urw/times/utmb8a.pfb
-><C:/Program Files/MiKTeX 2.9.1/fonts/type1/urw/times/utmbi8a.pfb><C:/Program F
-iles/MiKTeX 2.9.1/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9
-.1/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (5 pages, 361328 bytes).
+ 39i,10n,49p,643b,1695s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9.1/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm
+/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><C:/Program Files/MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Program Files/MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les/MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/
+MiKTeX 2.9.1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
+ 2.9.1/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9.1
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on sbc-template.pdf (5 pages, 682639 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

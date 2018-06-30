@@ -1,3 +1,23 @@
 \begin{thebibliography}{}
 
+\bibitem[Balanis 2005]{Balanis2005}
+Balanis, C.~A. (2005).
+\newblock {\em Antenna Theory: Analysis and Design}.
+\newblock Wiley-Interscience, New York, NY, USA.
+
+\bibitem[Knuth 1998]{knuth1998art}
+Knuth, D.~E. (1998).
+\newblock The art of computer programming, 2: seminumerical algorithms,
+  addision wesley.
+\newblock {\em Reading, MA}.
+
+\bibitem[Park and Miller 1988]{park1988random}
+Park, S.~K. and Miller, K.~W. (1988).
+\newblock Random number generators: good ones are hard to find.
+\newblock {\em Communications of the ACM}, 31(10):1192--1201.
+
+\bibitem[Volchan 2001]{volchan2001algorithmic}
+Volchan, S.~B. (2001).
+\newblock The algorithmic theory of randomness.
+
 \end{thebibliography}
