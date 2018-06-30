@@ -2,8 +2,8 @@
 Para avaliar o nível de aleatoriedade das sequências, foi utilizado o programa \textit{ent}, que foi criado com o objetivo de realizar a avaliação de geradores de sequências numéricas pseudoaleatórias para criptografia e aplicações de amostragem estatística. O programa realiza cinco testes diferentes:
 \begin{itemize}
 \item Entropia: Analisa a densidade de informação apresentada, ou seja, verifica o quanto a sequência pode ser comprimida e ainda representar o dado original. Quanto menor for a entropia, menos aleatória e mais compressível é a sequência.
-\item Teste Qui-quadrado: É calculada a distribuição qui-quadrado, que avalia a relação entre os valores fornecidos e os esperados. A distribuição é simétrica, sendo que sequências verdadeiramente aleatórias devem resultar em valores mais centralizados.
-\item Média Aritmética: Realiza a média aritmética dos valores. Considerando que a analise é feita a partir de blocos de quatro bytes, ou seja, são valores entre zero e 255, idealmente a média deve se aproximar de 127,5.
+\item Teste Qui-quadrado: É calculada a distribuição qui-quadrado, que avalia a relação entre os valores fornecidos e os esperados. A distribuição é simétrica, sendo que sequências verdadeiramente aleatórias devem resultar em valores mais centralizados \cite{knuth1998art}.
+\item Média Aritmética: Realiza a média aritmética dos valores. Considerando que a analise é feita a partir de blocos de quatro bytes, ou seja, são valores entre zero e 255, idealmente a média deve se aproximar de 127,5. 
 \item Aproximação de $\pi$ pelo método de Monte Carlo: Cada sequência sucessiva de seis bytes é utilizada como coordenadas em um quadrado, o qual contem um circulo inscrito. Pontos verdadeiramente aleatórios tem uma probabilidade de estar dentro do circulo igual à razão entre a área do circulo pela área do quadrado. Assim, a razão entre os pontos do circulo e o total de pontos deve tender (lentamente) à um quarto do valor de $\pi$.
 \item Coeficiente de correlação serial: Mede o quanto cada elemento da sequência se relaciona ao elemento anterior, e para sequências verdadeiramente aleatórias, deve se aproximar de zero.
 \end{itemize}
