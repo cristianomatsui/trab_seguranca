@@ -1,0 +1,25 @@
+\section{Resultados}
+
+Os arquivos binários obtidos foram submetidos ao programa \textit{ent}, para verificar os cinco testes de aleatoriedade da sequência gerada.
+Foram utilizadas cinco sequências geradas pelo experimento, e uma sequência gerada pelo gerador de entropia do sistema GNU/Linux.
+
+\begin{table}[H]
+\caption{Verificação da aleatoriedade dos dados}
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+ \textbf{Instância}&\textbf{Entropia}&\textbf{Qui-quadrado}&\textbf{Média aritimética}&\textbf{Monte-Carlo}&\textbf{Correlação serial}\\
+ seq1& 7.961164  & 269.30 & 126.8750 & 3.236494598& 0.005960 \\
+ seq2& 7.969834  & 209.29 & 126.7858 & 3.150060024& 0.016754 \\
+ seq3& 7.961094  & 263.05 & 125.8314 & 3.154861945& -0.006693 \\
+ seq4& 7.960302  & 274.32 & 126.1190 & 3.164465786& 0.005694 \\
+ seq5& 7.952913  & 321.83 & 124.9390 & 3.222088836& 0.007775 \\
+ seq\_urandom& 7.965104  & 242.10 & 128.3805 & 3.090269637& 0.021974 \\
+ 
+
+\end{tabular}
+}
+\end{table}
+
+
+
